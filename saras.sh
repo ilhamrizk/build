@@ -3,7 +3,7 @@
 
 # install mesh network
 sudo apt-get update
-sudo apt-get install libnl-3-dev libnl-genl-3-dev pkg-config -y 
+sudo apt-get install libnl-3-dev libnl-genl-3-dev pkg-config net-tools -y 
 cd /usr/local/bin
 sudo rm -r saras
 sudo git clone https://github.com/ilhamrizk/saras.git
