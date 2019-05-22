@@ -49,17 +49,23 @@ influx
 
 It's should contain RESPACK1, RESPACK2, RESPACK3, PETS, PETS1
 
-### GUI Flask
+### Systemd Check
 
-check the browser and run
+```
+sudo systemctl status mesh.service
+sudo systemctl status saras.service
+sudo systemctl status influxdb
+```
+
+Make sure those services are "running". if it's not, *wallahua'lam fisshowaf*
+
+## Deployment
+
+Graphical User Interface will run on browser, run this site on your browser
 
 ```
 localhost:5000
 ```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -71,7 +77,7 @@ Add additional notes about how to deploy this on a live system
 ## Authors
 
 Tim Action
-* **Tutun Juhana** - *Superviser*
+* **Tutun Juhana** - *Supervisor*
 * **Ilham Rizky** - *Developer*
 * **David Valianto** - *Gabuter*
 * **Edbert Ongko** - *Ini apa lagi*
