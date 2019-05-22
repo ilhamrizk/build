@@ -8,12 +8,13 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them This builder only work for linux (tested and worked on ubuntu 18.04). 
-
-check your wifi interface. if it's not wlp2s0, open /usr/local/bin/saras/mesh.sh then change all wlp2s0 to your wifi interface. 
+* This builder only work for linux (tested and worked on ubuntu 18.04). 
+* check your wifi interface. if it's not wlp2s0, open /usr/local/bin/saras/mesh.sh then change all wlp2s0 to your wifi interface after installation done
+* Install git and make sure your linux are up to date
 
 ```
-Give examples
+sudo apt-get update
+sudo apt-get install git
 ```
 
 ### Installing
