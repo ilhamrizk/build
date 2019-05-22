@@ -1,6 +1,6 @@
 # SARAS Builder
 
-It's builder of SARAS (Search and Rescue Assisting System)
+It's builder for SARAS (Search and Rescue Assisting System).
 
 ## Getting Started
 
@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 What things you need to install the software and how to install them
+This builder only work for linux (tested and worked on ubuntu 18.04). 
 
 ```
 Give examples
@@ -16,9 +17,7 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Run these install instructions after you satisfied 
 
 ```
 sudo git clone https://github.com/ilhamrizk/build.git
@@ -26,32 +25,35 @@ cd build
 sudo sh saras.sh
 ```
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
-Explain how to run the automated tests for this system
+this system will run automatically after you've done the installing procedure above. but you can check some criterion below.
 
-### Break down into end to end tests
+### Mesh network service
 
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
+To check mesh network, ...
 
 ```
-Give an example
+sudo batctl tg
+```
+
+### Influx DB query
+
+This test to check your databases were made or not. on terminal run these command
+
+```
+influx
+> show databases
+```
+
+It's should contain RESPACK1, RESPACK2, RESPACK3, PETS, PETS1
+
+### GUI Flask
+
+check the browser and run
+
+```
+localhost:5000
 ```
 
 ## Deployment
@@ -60,15 +62,16 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [BATMAN Mesh Network](https://www.open-mesh.org/doc/batman-adv/Quick-start-guide.html) - Mesh Netwok
+* [batctl](https://rometools.github.io/rome/) -  
+* [Influx DB](https://portal.influxdata.com/) - Database Query
+
 
 ## Authors
 
 Tim Action
 * **Tutun Juhana** - *Superviser*
-* **Ilham Rizky** - *PETS Developer*
+* **Ilham Rizky** - *Developer*
 * **David Valianto** - *Gabuter*
 * **Edbert Ongko** - *Ini apa lagi*
 
