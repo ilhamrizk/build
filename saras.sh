@@ -3,7 +3,7 @@
 
 # install mesh network
 sudo apt-get update
-sudo apt-get install libnl-3-dev libnl-genl-3-dev -y
+sudo apt-get install libnl-3-dev libnl-genl-3-dev -y 
 cd /usr/local/bin
 sudo rm -r saras
 sudo git clone https://github.com/ilhamrizk/saras.git
@@ -37,7 +37,7 @@ influx -execute "create database RESPACK2"
 influx -execute "create database RESPACK3"
 
 #install saras
-sudo apt-get install python-pip
+sudo apt-get install python-pip python-pandas python-influxdb -y
 sudo pip install flask
 cp /usr/local/bin/saras/saras.service /etc/systemd/system/saras.service
 sudo chmod 700 /etc/systemd/system/saras.service
