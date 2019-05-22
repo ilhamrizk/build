@@ -8,8 +8,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-This builder only work for linux (tested and worked on ubuntu 18.04). 
+What things you need to install the software and how to install them This builder only work for linux (tested and worked on ubuntu 18.04). 
+
+check your wifi interface. if it's not wlp2s0, open /usr/local/bin/saras/mesh.sh then change all wlp2s0 to your wifi interface. 
 
 ```
 Give examples
@@ -17,7 +18,7 @@ Give examples
 
 ### Installing
 
-Run these install instructions after you satisfied 
+Run these install instructions after prerequisites were satisfied 
 
 ```
 sudo git clone https://github.com/ilhamrizk/build.git
