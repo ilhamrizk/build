@@ -3,12 +3,12 @@
 
 # install mesh network
 sudo apt-get update
-sudo apt-get install libnl-3-dev libnl-genl-3-dev -y 
+sudo apt-get install libnl-3-dev libnl-genl-3-dev pkg-config -y 
 cd /usr/local/bin
 sudo rm -r saras
 sudo git clone https://github.com/ilhamrizk/saras.git
 sudo chmod 777 saras
-cd batctl
+cd saras/batctl
 sudo make install
 sudo cp /usr/local/bin/saras/mesh/mesh.sh /mesh.sh
 sudo chmod 700 /mesh.sh
