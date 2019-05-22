@@ -85,4 +85,4 @@ Action Team from Telecommunication Engineering Bandung Institut of Technology
 
 ## License
 
-This project is licensed under the License of ITB - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the License of MIT - see the [LICENSE.md](LICENSE.md) file for details
