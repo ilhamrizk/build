@@ -77,7 +77,7 @@ localhost:5000
 
 ## Authors
 
-Tim Action
+Action Team from Telecommunication Engineering Bandung Institut of Technology
 * **Tutun Juhana** - *Supervisor*
 * **Ilham Rizky** - *Developer*
 * **David Valianto** - *Gabuter*
@@ -85,4 +85,4 @@ Tim Action
 
 ## License
 
-This project is licensed under the License of ITB
+This project is licensed under the License of ITB - see the [LICENSE.md](LICANSE.md) file for details
