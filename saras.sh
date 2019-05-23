@@ -8,6 +8,7 @@ cd /usr/local/bin
 sudo rm -r saras
 sudo git clone https://github.com/ilhamrizk/saras.git
 sudo chmod 777 saras
+sudo chmod 777 saras/saras.sh
 cd saras/batctl
 sudo make install
 sudo cp /usr/local/bin/saras/mesh/mesh.sh /mesh.sh
