@@ -38,8 +38,8 @@ influx -execute "create database RESPACK2"
 influx -execute "create database RESPACK3"
 
 #install saras
-sudo apt-get install python-pip python-pandas python-influxdb -y
-sudo pip install flask
+sudo apt-get install python-pip python-pandas python-influxdb python-flask -y
+sudo pip install flask influx
 sudo cp /usr/local/bin/saras/saras.service /etc/systemd/system/saras.service
 sudo chmod 700 /etc/systemd/system/saras.service
 sudo systemctl daemon-reload
